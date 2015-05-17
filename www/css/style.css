@@ -1,3 +1,24 @@
 /* Empty. Add your own CSS if you like */
 
-#map {display:block; height: 500px;width: 500px;}
+#map {display:block; height: 600px;width: 100%};
+
+
+.rating {
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+ul.rating {
+    display: inline-block;
+}
+.rating li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rating .filled {
+    color: red;
+}}
